@@ -1,0 +1,30 @@
+{
+  "name": "next-auth-authsch-provider",
+  "version": "1.0.0",
+  "description": "An OAuth Provider for auth.sch.bme.hu for the popular auth plugin NextAuth.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [
+    "authsch",
+    "kir-dev",
+    "bme",
+    "sch",
+    "schönherz",
+    "next-auth"
+  ],
+  "author": "Gyula Kiri",
+  "license": "ISC",
+  "dependencies": {
+    "next-auth": "^4.24.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.3"
+  }
+}
