@@ -1,6 +1,6 @@
 {
   "name": "next-auth-authsch-provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An OAuth Provider for auth.sch.bme.hu for the popular auth plugin NextAuth.js",
   "scripts": {
     "build": "tsc"
