@@ -101,6 +101,11 @@ export default function AuthSCH<P extends AuthSCHProfile>(
       },
     },
     checks: ["state"],
+    style: {
+      logo: "https://git.sch.bme.hu/uploads/-/system/appearance/header_logo/1/sch.png",
+      bg: "#173c65",
+      text: "#fff",
+    },
     profile(profile: AuthSCHProfile) {
       return {
         id: profile.internal_id,
