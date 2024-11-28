@@ -14,7 +14,11 @@ export interface AuthSCHProfile extends Record<string, any> {
     virUid?: string; // vir username
   };
   eduPersonEntitlement: {
-    status: "körvezető" | "tag" | "öregtag"; // membership status in the given circle (leader/member/old member in this priority order)
+    id: number;
+    name: string;
+    status: string;
+    start: string;
+    end: string | null;
   }[];
   roomNumber: string | null; // user room number (dorm name and room number if a dorm resident, null otherwise)
   mobile: string; // mobile number from VIR
